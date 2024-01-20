@@ -1,8 +1,31 @@
 package code.gym.lvl20;
 
+
+import java.io.PrintWriter;
+
 public class Cat {
-    /*
-    https://chat.openai.com/c/7d9b8a34-4ed5-4213-8500-68e28b067a5f
-    do it from scratch
-    * */
+    public String name;
+    public int age;
+    public int weight;
+
+    public void save(PrintWriter writer) throws Exception {
+        writer.println(name);
+        writer.println(age);
+        writer.println(weight);
+        writer.flush();
+    }
+
+
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+        cat.name = "Mark";
+        cat.age = 39;
+        cat.weight = 200;
+        try (PrintWriter writer = new PrintWriter("mark.txt")){
+            cat.save(writer);
+            System.out.println("Successfully saved cat info!!!");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
 }
