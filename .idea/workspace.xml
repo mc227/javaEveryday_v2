@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2001/Asset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2001/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/gym/lvl20/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/gym/lvl20/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/gym/lvl20/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/gym/lvl20/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/gym/lvl20/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/gym/lvl20/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mark.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2001/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2001/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Human">
+  <component name="RunManager" selected="Application.com.codegym.task.task20.task2001.Solution">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.gym.lvl20.Cat" />
       <module name="javaEveryday_v2.main" />
@@ -147,35 +144,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaEveryday_v2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="com.codegym.task.task20.task2001.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2001.Solution" />
+      <module name="javaEveryday_v2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.task.task20.task2001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.codegym.task.task20.task2001.Solution" />
         <item itemvalue="Application.Human" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.javaEveryday_v2 [build]" />
       </list>
     </recent_temporary>
   </component>
