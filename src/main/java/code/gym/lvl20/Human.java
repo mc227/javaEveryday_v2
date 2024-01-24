@@ -8,8 +8,10 @@ public class Human {
     public Dog dog;
 
     public void save(PrintWriter writer) throws Exception {
-        cat.save(writer);
-        dog.save(writer);
+        if (cat != null)
+            cat.save(writer);
+        if (dog != null)
+            dog.save(writer);
     }
 
     public void load(BufferedReader reader) throws Exception {
