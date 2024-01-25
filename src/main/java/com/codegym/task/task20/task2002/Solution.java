@@ -1,6 +1,5 @@
 package com.codegym.task.task20.task2002;
 
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -27,16 +26,17 @@ public class Solution {
             CodeGym loadedObject = new CodeGym();
             loadedObject.load(inputStream);
             // Here check that the codeGym object is equal to the loadedObject object
+            System.out.println(codeGym.equals(loadedObject));
 
             outputStream.close();
             inputStream.close();
 
         } catch (IOException e) {
             //e.printStackTrace();
-            System.out.println("Oops, something is wrong with my file");
+            System.out.println("Oops, something wrong with my file");
         } catch (Exception e) {
             //e.printStackTrace();
-            System.out.println("Oops, something is wrong with the save/load method");
+            System.out.println("Oops, something wrong with save/load method");
         }
     }
 
@@ -48,11 +48,18 @@ public class Solution {
             PrintWriter printWriter = new PrintWriter(outputStream);
             if (this.users.size() > 0) {
                 for (User current : this.users) {
-                    printWriter.println(current.getFirstName());
-                    printWriter.println(current.getLastName());
-                    printWriter.println(current.getBirthDate());
-                    printWriter.println(current.isMale());
-                    printWriter.println(current.getCountry());
+                    StringBuilder sb = new StringBuilder();
+                    sb.append(current.getFirstName());
+                    sb.append("/");
+                    sb.append(current.getLastName());
+                    sb.append("/");
+                    sb.append(current.getBirthDate().getTime());
+                    sb.append("/");
+                    sb.append(current.isMale());
+                    sb.append("/");
+                    sb.append(current.getCountry());
+
+                    printWriter.println(sb.toString());
                 }
             }
             printWriter.close();
@@ -61,16 +68,31 @@ public class Solution {
         public void load(InputStream inputStream) throws Exception {
             // Implement this method
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-            while (reader.ready()) {
-                User fooUser = new User();
-                fooUser.setFirstName(reader.readLine());
-                fooUser.setLastName(reader.readLine());
-                fooUser.setBirthDate(new Date(reader.readLine()));
-                fooUser.setMale(Boolean.parseBoolean(reader.readLine()));
-                fooUser.setCountry(User.Country.valueOf(reader.readLine()));
-
-                this.users.add(fooUser);
+            String line;
+            while ((line = reader.readLine()) != null) {
+                User user = new User();
+                String[] lineArray = line.split("/");
+                if (lineArray.length < 5) {
+                    break;
+                }
+                user.setFirstName(lineArray[0]);
+                user.setLastName(lineArray[1]);
+                user.setBirthDate(new Date(Long.parseLong(lineArray[2])));
+                user.setMale(Boolean.parseBoolean(lineArray[3]));
+                switch (lineArray[4]) {
+                    case "UNITED_STATES":
+                        user.setCountry(User.Country.UNITED_STATES);
+                        break;
+                    case "UNITED_KINGDOM":
+                        user.setCountry(User.Country.UNITED_KINGDOM);
+                        break;
+                    default:
+                        user.setCountry(User.Country.OTHER);
+                        break;
+                }
+                this.users.add(user);
             }
+
             reader.close();
         }
 
