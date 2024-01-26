@@ -5,8 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
-Introducing properties
-- The fillInPropertiesMap method must read data from the console.
+The fillInPropertiesMap method should
+call the load method, passing the
+newly created FileInputStream as an argument.
 */
 
 public class Solution {
@@ -23,8 +24,10 @@ public class Solution {
         }
 
         try (FileInputStream fileInputStream = new FileInputStream(fileName)) {
-            while (fileInputStream.available() > 0) {
-
+            try {
+                load(fileInputStream);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
