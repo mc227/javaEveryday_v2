@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/file1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1802/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1803/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1805/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1806/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1807/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1808/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/DisplayMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/code/gym/lvl20/CatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testFileName.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/FileDivide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,6 +81,7 @@
     "Gradle.SolutionTest.executor": "Run",
     "Gradle.javaEveryday_v2 [:Cat.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [:DisplayMenu.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:FileDivide.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [:Human.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [:Main.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [:Solution.main()].executor": "Run",
@@ -133,13 +114,13 @@
       <recent name="com.codegym.task.task18.task1807" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CatTest">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task18.task1807.Solution" />
+  <component name="RunManager" selected="Application.FileDivide">
+    <configuration name="FileDivide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scratch1.FileDivide" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task18.task1807.*" />
+          <option name="PATTERN" value="scratch1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileDivide" />
         <item itemvalue="Gradle.CatTest" />
         <item itemvalue="Gradle.SolutionTest" />
         <item itemvalue="Application.SolutionTest" />
         <item itemvalue="Application.com.codegym.task.task18.task1808.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
