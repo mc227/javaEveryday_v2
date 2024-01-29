@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mark/task/task20/task2001/Asset.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/FileDivide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -108,6 +109,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mark Costales\Desktop\dev\2024\javaEveryday_v2\src\main\java" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="code.gym.lvl20" />
