@@ -1,1 +1,14 @@
-Luna
+e solution i was going by the suggestion of intellij to put try catches and stuff.
+i feel like i still need to do certain things. i can't go on
+
+i felt really inspired by the people in the comment section with their levels so high.
+i bet i'd feel awesome once i reach level 41
+
+what I'm doing right now is rereading the input output streams until i understand the level 20 solutions well enough
+to talk about them
+
+
+12:11 PM
+I feel a little overwhelmed with the stuff to learn
+I'm working on ByteArrayOutputstream
+possibly write from scratch the three examples of it i see,

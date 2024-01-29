@@ -25,4 +25,4 @@ to talk about them
 12:11 PM
 I feel a little overwhelmed with the stuff to learn
 I'm working on ByteArrayOutputstream
-possibly write from scratch the three examples of it i see
+possibly write from scratch the three examples of it i see,

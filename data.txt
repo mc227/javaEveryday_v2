@@ -1,1 +1,15 @@
-Luna
+I dont feel like i have enough knowledge to answer task 2003
+that is why I'm reviewing level 18 and level 19.
+it's longer but it's gonna be well worth it.
+
+                            input stream        output stream
+works with bytes            inputstream         outputstream
+works with characters       reader              writer
+
+this actually helps me. I feel like i don't need to read the entire thing
+I might just pick up the ideas i need
+
+10:41 AM
+1/26/2024
+I saw code gym's solution and it was really elegant and clean and not a lot of fuzz
+when i came up with th

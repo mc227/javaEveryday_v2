@@ -5,10 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scratch.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1802/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1803/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1805/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1806/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1807/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task18/task1808/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/DisplayMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scratch1/foo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/code/gym/lvl20/CatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFileName.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2003/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2003/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +78,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -78,41 +97,49 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.CatTest.executor": "Run",
+    "Gradle.SolutionTest.executor": "Run",
     "Gradle.javaEveryday_v2 [:Cat.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:DisplayMenu.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [:Human.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [:Main.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [:Solution.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [:foo.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo2.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo3.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo4.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo5.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo6.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo7.main()].executor": "Run",
     "Gradle.javaEveryday_v2 [build].executor": "Run",
     "Gradle.javaEveryday_v2 [clean].executor": "Run",
+    "Gradle.javaEveryday_v2 [jar].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Mark Costales/Desktop/dev/2024/javaEveryday_v2/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.foo">
-    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.gym.lvl20.Human" />
-      <module name="javaEveryday_v2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code.gym.lvl20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="code.gym.lvl20" />
+      <recent name="com.codegym.task.task18.task1807" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.CatTest">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task19.task1901.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task18.task1807.Solution" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task19.task1901.*" />
+          <option name="PATTERN" value="com.codegym.task.task18.task1807.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codegym.task.task20.task2001.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2001.Solution" />
-      <module name="javaEveryday_v2.main" />
+    <configuration name="SolutionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task18.task1807.SolutionTest" />
+      <module name="javaEveryday_v2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task20.task2001.*" />
+          <option name="PATTERN" value="com.codegym.task.task18.task1807.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codegym.task.task20.task2003.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2003.Solution" />
+    <configuration name="com.codegym.task.task18.task1808.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task18.task1808.Solution" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task20.task2003.*" />
+          <option name="PATTERN" value="com.codegym.task.task18.task1808.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,25 +173,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scratch1.foo" />
-      <module name="javaEveryday_v2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scratch1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="CatTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;code.gym.lvl20.CatTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.codegym.task.task18.task1807.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.foo" />
-        <item itemvalue="Application.com.codegym.task.task20.task2003.Solution" />
-        <item itemvalue="Application.com.codegym.task.task20.task2001.Solution" />
-        <item itemvalue="Application.Human" />
+        <item itemvalue="Gradle.CatTest" />
+        <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Application.SolutionTest" />
+        <item itemvalue="Application.com.codegym.task.task18.task1808.Solution" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
