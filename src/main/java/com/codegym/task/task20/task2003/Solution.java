@@ -11,7 +11,7 @@ Introducing properties
 */
 
 public class Solution {
-    public static Map<String, String> properties = new HashMap<>();
+    public static Map<String,String> properties = new HashMap<>();
 
     public void fillInPropertiesMap() throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -21,36 +21,33 @@ public class Solution {
         reader.close();
     }
 
-    public void save(OutputStream outputStream) throws Exception {
+    public void save(OutputStream outputStream) throws Exception{
         Properties prop = new Properties();
-        for (Map.Entry<String, String> entry : properties.entrySet()) {
+        for(Map.Entry<String,String> entry: properties.entrySet()){
             prop.setProperty(entry.getKey(), entry.getValue());
         }
-        prop.store(outputStream, null);
+        prop.store(outputStream,null);
         outputStream.close();
     }
-
-    public void load(InputStream inputStream) throws Exception {
+    private void load(FileInputStream inputStream) throws Exception{
         Properties prop = new Properties();
         prop.load(inputStream);
-        for (Map.Entry<Object, Object> entry : prop.entrySet()) {
-            properties.put(entry.getKey().toString(), entry.getValue().toString());
+        for(Map.Entry<Object,Object> entry: prop.entrySet()){
+            properties.put(entry.getKey().toString(),entry.getValue().toString());
         }
         inputStream.close();
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         try {
-            Solution solution = new Solution();
             solution.fillInPropertiesMap();
-
-            // Example: Printing the properties after loading
             System.out.println("Properties:");
-            for (Map.Entry<String, String> entry : properties.entrySet()) {
-                System.out.println(entry.getKey() + " : " + entry.getValue());
+            for(Map.Entry<String,String> entry: properties.entrySet()){
+                System.out.println(entry.getKey()+" : "+entry.getValue());
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
 }

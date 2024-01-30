@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/One/task2002/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/three/task2001/Asset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/three/task2001/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2003/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2003/Solution.java" afterDir="false" />
     </list>
@@ -120,7 +117,7 @@
       <recent name="com.codegym.task.task18.task1807" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.three.task2001.Solution">
+  <component name="RunManager" selected="Application.com.codegym.task.task20.task2003.Solution">
     <configuration name="FileDivide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="scratch1.FileDivide" />
       <module name="javaEveryday_v2.main" />
@@ -140,6 +137,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="two.task2001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.codegym.task.task20.task2003.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2003.Solution" />
+      <module name="javaEveryday_v2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.task.task20.task2003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,37 +194,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.codegym.task.task18.task1807.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.codegym.task.task20.task2003.Solution" />
         <item itemvalue="Application.three.task2001.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.FileDivide" />
         <item itemvalue="Gradle.CatTest" />
-        <item itemvalue="Gradle.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
