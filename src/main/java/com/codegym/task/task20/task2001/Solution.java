@@ -14,9 +14,9 @@ public class Solution {
     public static void main(String[] args) {
         // Update the string passed to the createTempFile method based on the path to a file on your hard drive
         try {
-            File yourFile = File.createTempFile("your_file_name", null);
-            OutputStream outputStream = new FileOutputStream(yourFile);
-            InputStream inputStream = new FileInputStream(yourFile);
+//            File yourFile = File.createTempFile("C:/Users/Mark Costales/Desktop/dev/2024/javaEveryday_v2/one.txt", null);
+            OutputStream outputStream = new FileOutputStream("one.txt");
+            InputStream inputStream = new FileInputStream("one.txt");
 
             Human smith = new Human("Smith", new Asset("home", 999_999.99), new Asset("car", 2999.99));
             smith.save(outputStream);
