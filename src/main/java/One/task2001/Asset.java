@@ -1,15 +1,13 @@
-package mark.task.task20.task2001;
-
-import java.util.Objects;
+package One.task2001;
 
 public class Asset {
-    private String name;
-    private double price;
-
     public Asset(String name, double price) {
         this.name = name;
         this.price = price;
     }
+
+    private String name;
+    private double price;
 
     public String getName() {
         return name;
