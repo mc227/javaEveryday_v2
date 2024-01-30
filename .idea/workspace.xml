@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/two/task2001/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/One/task2002/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/three/task2001/Asset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/three/task2001/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2003/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2003/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +120,7 @@
       <recent name="com.codegym.task.task18.task1807" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileDivide">
+  <component name="RunManager" selected="Application.three.task2001.Solution">
     <configuration name="FileDivide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="scratch1.FileDivide" />
       <module name="javaEveryday_v2.main" />
@@ -131,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task18.task1807.SolutionTest" />
-      <module name="javaEveryday_v2.test" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="two.task2001.Solution" />
+      <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task18.task1807.*" />
+          <option name="PATTERN" value="two.task2001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codegym.task.task18.task1808.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task18.task1808.Solution" />
+    <configuration name="three.task2001.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="three.task2001.Solution" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task18.task1808.*" />
+          <option name="PATTERN" value="three.task2001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.three.task2001.Solution" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.FileDivide" />
         <item itemvalue="Gradle.CatTest" />
         <item itemvalue="Gradle.SolutionTest" />
-        <item itemvalue="Application.SolutionTest" />
-        <item itemvalue="Application.com.codegym.task.task18.task1808.Solution" />
       </list>
     </recent_temporary>
   </component>
