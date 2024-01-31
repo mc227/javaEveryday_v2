@@ -1,28 +1,5 @@
-I dont feel like i have enough knowledge to answer task 2003
-that is why I'm reviewing level 18 and level 19.
-it's longer but it's gonna be well worth it.
 
-                            input stream        output stream
-works with bytes            inputstream         outputstream
-works with characters       reader              writer
-
-this actually helps me. I feel like i don't need to read the entire thing
-I might just pick up the ideas i need
-
-10:41 AM
-1/26/2024
-I saw code gym's solution and it was really elegant and clean and not a lot of fuzz
-when i came up with the solution i was going by the suggestion of intellij to put try catches and stuff.
-i feel like i still need to do certain things. i can't go on
-
-i felt really inspired by the people in the comment section with their levels so high.
-i bet i'd feel awesome once i reach level 41
-
-what I'm doing right now is rereading the input output streams until i understand the level 20 solutions well enough
-to talk about them
-
-
-12:11 PM
-I feel a little overwhelmed with the stuff to learn
-I'm working on ByteArrayOutputstream
-possibly write from scratch the three examples of it i see,
+Serialization in Java is the process of saving an object's state as a sequence of bytes
+Serialization in Java is the process of saving an object's state as a sequence of bytes.
+Deserialization in Java is the process of restoring an objects from these bytes
+Deserialization in Java is the process of restoring an object from these bytes.
