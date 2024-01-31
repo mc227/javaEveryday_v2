@@ -1,5 +1,2 @@
 
-Serialization in Java is the process of saving an object's state as a sequence of bytes
-Serialization in Java is the process of saving an object's state as a sequence of bytes.
-Deserialization in Java is the process of restoring an objects from these bytes
-Deserialization in Java is the process of restoring an object from these bytes.
+long serial version uid

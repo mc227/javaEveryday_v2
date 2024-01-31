@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SavedGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scratch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,36 +76,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.CatTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SolutionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:Cat.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:DisplayMenu.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:FileDivide.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:Human.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:Solution.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:foo.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:foo2.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:foo3.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:foo4.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:foo5.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:foo6.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [:foo7.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.javaEveryday_v2 [jar].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Mark Costales/Desktop/dev/2024/javaEveryday_v2/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.CatTest.executor": "Run",
+    "Gradle.SolutionTest.executor": "Run",
+    "Gradle.javaEveryday_v2 [:Cat.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:DisplayMenu.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:FileDivide.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:Human.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:Main.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:SavedGame.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:Solution.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo2.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo3.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo4.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo5.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo6.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [:foo7.main()].executor": "Run",
+    "Gradle.javaEveryday_v2 [build].executor": "Run",
+    "Gradle.javaEveryday_v2 [clean].executor": "Run",
+    "Gradle.javaEveryday_v2 [jar].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Mark Costales/Desktop/dev/2024/javaEveryday_v2/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -116,13 +119,26 @@
       <recent name="com.codegym.task.task18.task1807" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cat">
+  <component name="RunManager" selected="Application.SavedGame">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.gym.lvl20.lesson3.Cat" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="code.gym.lvl20.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SavedGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SavedGame" />
+      <module name="javaEveryday_v2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,26 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="three.task2001.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three.task2001.Solution" />
-      <module name="javaEveryday_v2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="three.task2001.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SavedGame" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="Application.com.codegym.task.task20.task2005.Solution" />
         <item itemvalue="Application.com.codegym.task.task20.task2001.Solution" />
         <item itemvalue="Application.com.codegym.task.task20.task2003.Solution" />
-        <item itemvalue="Application.three.task2001.Solution" />
       </list>
     </recent_temporary>
   </component>
