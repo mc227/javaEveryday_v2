@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/gym/java/blog/serialization/in/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/gym/java/blog/serialization/in/java/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2006/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2007/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2007/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2008/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DiplomacyInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ResourceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TerritoryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2011/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2012/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2013/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2014/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved.ser" beforeDir="false" afterPath="$PROJECT_DIR$/saved.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SavedGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SavedGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/gym/java/course/java/core/save/data/Externalizable/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/gym/java/course/java/core/save/data/Externalizable/Cat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +122,7 @@
       <recent name="com.codegym.task.task18.task1807" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.com.codegym.task.task20.task2014.Solution">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.gym.lvl20.lesson3.Cat" />
       <module name="javaEveryday_v2.main" />
@@ -181,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codegym.task.task20.task2005.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2005.Solution" />
+    <configuration name="com.codegym.task.task20.task2014.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2014.Solution" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task20.task2005.*" />
+          <option name="PATTERN" value="com.codegym.task.task20.task2014.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.codegym.task.task20.task2014.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SavedGame" />
         <item itemvalue="Application.Cat" />
-        <item itemvalue="Application.com.codegym.task.task20.task2005.Solution" />
       </list>
     </recent_temporary>
   </component>
