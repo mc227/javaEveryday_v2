@@ -26,21 +26,17 @@ public class Solution implements Serializable{
         // 1) create a file, open an input stream and an output stream;
         OutputStream outputStream = new FileOutputStream("markCostales.ser");
         InputStream inputStream = new FileInputStream("markCostales.ser");
-
         // 2) create an instance of the Solution class (savedObject);
         Solution savedObject = new Solution(4);
-
         // 3) write savedObject to the output stream (make sure that they're really there);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
         objectOutputStream.writeObject(savedObject);
         objectOutputStream.close();
-
         // 4) create another instance of the Solution class with a different argument;
         // 5) load an object from the input stream (loadedObject);
         ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
         Solution loadedObject = (Solution) objectInputStream.readObject();
         objectInputStream.close();
-
         // 6) verify that savedObject.string is equal to loadedObject.string;
         System.out.println(savedObject.string.equals(loadedObject.string));
 
