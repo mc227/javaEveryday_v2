@@ -5,9 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a59ae4-42fd-4e7a-9782-e9ec35b31b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2015/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2016/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2017/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2018/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task21/task2101/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task21/task2102/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task21/task2104/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task21/task2107/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task21/task2108/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task21/task2109/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task21/task2110/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2014/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/task/task20/task2014/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/One/task2001/Asset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/One/task2001/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/One/task2002/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/gym/lvl20/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/gym/lvl20/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mark/task/task20/task2002/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mark/task/task20/task2002/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DiplomacyInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResourceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SavedGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TerritoryInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/DisplayMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/FileDivide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/foo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/foo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/foo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/foo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/foo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scratch1/foo7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/three/task2001/Asset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/three/task2001/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/two/task2001/Asset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/two/task2001/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,26 +151,13 @@
       <recent name="com.codegym.task.task18.task1807" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.codegym.task.task20.task2015.Solution">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.gym.java.blog.serialization.in.java.Main" />
+  <component name="RunManager" selected="Application.Cat">
+    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.gym.lvl20.Cat" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.gym.java.blog.serialization.in.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SavedGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SavedGame" />
-      <module name="javaEveryday_v2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="code.gym.lvl20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +166,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2008.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task21.task2102.Solution" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task20.task2008.*" />
+          <option name="PATTERN" value="com.codegym.task.task21.task2102.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codegym.task.task20.task2014.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2014.Solution" />
+    <configuration name="com.codegym.task.task20.task2017.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2017.Solution" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task20.task2014.*" />
+          <option name="PATTERN" value="com.codegym.task.task20.task2017.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +191,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codegym.task.task20.task2015.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2015.Solution" />
+    <configuration name="com.codegym.task.task20.task2018.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task20.task2018.Solution" />
       <module name="javaEveryday_v2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.task.task20.task2015.*" />
+          <option name="PATTERN" value="com.codegym.task.task20.task2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.codegym.task.task21.task2101.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.task.task21.task2101.Solution" />
+      <module name="javaEveryday_v2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.task.task21.task2101.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.codegym.task.task20.task2015.Solution" />
-        <item itemvalue="Application.com.codegym.task.task20.task2014.Solution" />
+        <item itemvalue="Application.Cat" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SavedGame" />
+        <item itemvalue="Application.com.codegym.task.task21.task2101.Solution" />
+        <item itemvalue="Application.com.codegym.task.task20.task2018.Solution" />
+        <item itemvalue="Application.com.codegym.task.task20.task2017.Solution" />
       </list>
     </recent_temporary>
   </component>

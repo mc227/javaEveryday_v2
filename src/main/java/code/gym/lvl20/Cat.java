@@ -20,4 +20,9 @@ public class Cat {
         age = Integer.parseInt(reader.readLine());
         weight = Integer.parseInt(reader.readLine());
     }
+
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+        System.out.println(cat.toString());
+    }
 }
